@@ -8,6 +8,7 @@ module.exports = {
   coverageProvider: 'babel',
   testEnvironment: 'node',
   transform: {
+
     '.+\\.ts$': 'ts-jest'
   },
   moduleNameMapper: {
